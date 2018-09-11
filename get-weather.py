@@ -7,7 +7,7 @@ apiUrl = 'https://api.darksky.net/forecast/'
 longatude = '48.3742576,'
 latitude = '-123.7388384'
 
-apiUrl = apiToken + apiUrl + longatude +latitude
+apiUrl = apiUrl + apiToken +longatude + latitude
 #Get information from API
 r = requests.get(url=apiUrl)
 #print the info
